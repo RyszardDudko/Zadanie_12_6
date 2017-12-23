@@ -1,0 +1,56 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+body {
+	background-image: url("https://static.pexels.com/photos/346885/pexels-photo-346885.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Old Standard TT', sans-serif;
+	}
+
+.container{
+	margin: 0 auto;
+	background-color: rgba(65, 65, 65, 0.4);
+	width: 700px;
+	text-align: center;
+	color: black;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 30%;
+	left: 50%;
+	border: 1px solid blue;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+}
+
+ul {
+	padding: 0;
+}
+
+#countries {
+	font-size: 20px;
+	list-style-type: none;
+	line-height: 45px;
+}
+
+input {
+	width: 120px;
+	height: 36px;
+	font-size: 20px;
+}
+
+button {
+	width: 200px;
+	height: 33px;
+	background-color: #000;
+	color: white;
+	font-size: 20px;
+	padding: 15px auto;
+}
+
+.add-card {
+	padding-top: 20px;
+	font-size: 15px;
+}
